@@ -1,0 +1,16 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+
+.sporty {
+  color: red;
+}
+
+.casual {
+  color: #e04553;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,44 @@
+/* h2{
+    color: red;
+    font-size: 30px;
+}
+
+a{
+    color: blue;
+    text-decoration: none;
+} */
+
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Class Selectors */
+.sporty {
+  color: red;
+}
+
+.casual {
+  color: blue;
+}
+
+.formal {
+  color: brown;
+}
+/*ID Selectors */
+#container {
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 20px;
+}
+
+/*Multiple Styles*/
+.sporty,
+.casual {
+  font-size: 35px;
+}
+
+/*Descendant Styles*/
+/* #container p{
+    background: blue;
+} */

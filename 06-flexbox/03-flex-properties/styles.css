@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.flex-container {
+  background: lightblue;
+  width: 100%;
+  display: flex;
+}
+
+/* grow, shrink, basis */
+
+.flex-item {
+  background: coral;
+  border: 1px solid black;
+  padding: 20px;
+  /* flex: 1 0 0; Below is a shorthand */
+  flex: 1;
+}
+
+/* Flex shrink 1 default meaning will shrink
+  0 means will not shrink
+*/
+/* .item-1 {
+  flex-shrink: 0;
+} */
+
+/* Flex Grow
+  higher positive value the more that item will grow
+*/
+.item-1,
+.item-2 {
+  flex-grow: 1;
+}
+
+.item-3 {
+  flex-grow: 2;
+}
+
+/* Flex Basis specifies initial size of an 
+item before space is distributed */
+.item-4 {
+  flex-basis: 200px;
+}
+
+/* Combine these 3 properties using just the flex property */

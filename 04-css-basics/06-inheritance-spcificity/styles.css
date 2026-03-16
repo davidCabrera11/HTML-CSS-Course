@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* .container h1 {
+  color: red;
+} */
+
+#heading {
+  color: blueviolet;
+}
+
+.heading {
+  color: green;
+}
+
+h1 {
+  color: blue !important;
+}
